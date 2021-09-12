@@ -28,10 +28,11 @@ form.addEventListener("submit", (event) => {
       return response.json();
     })
     .then((response) => {
-      console.log("Sent successfully.");
+      document.getElementById("result-text").innerText =
+        "Email sent successfully!";
     })
     .catch((error) => {
-      console.log("An unkown error occured.");
-        
+      document.getElementById("result-text").innerText =
+        "An unkown error occured.";
     });
 });
