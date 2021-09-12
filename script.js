@@ -28,7 +28,7 @@ form.addEventListener("submit", (event) => {
       return response.json();
     })
     .then((response) => {
-      console.log("An unkown error occured.");
+      console.log("Sent successfully.");
     })
     .catch((error) => {
       console.log("An unkown error occured.");
