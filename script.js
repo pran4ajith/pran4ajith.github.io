@@ -32,7 +32,7 @@ form.addEventListener("submit", (event) => {
         "Email sent successfully!";
     })
     .catch((error) => {
-      document.getElementById("result-text").innerText =
-        "An unkown error occured.";
+      console.log("An unkown error occured.");
+        
     });
 });
