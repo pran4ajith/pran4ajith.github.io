@@ -53,7 +53,7 @@ page-content {
 .cake-shop-bottomleft {
     padding: 12px 24px!important;
     opacity: 0.80;
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 0;
 }
@@ -90,9 +90,9 @@ page-content {
   </nav>
 
 <!-- Header -->
-<header class="header-container cake-content" style="max-width:1600px;min-width:500px" id="home">
-  <img class="cake-image-bg" src="cake2.jpg" alt="Cake Sho" width="1600" height="800">
-  <div class="cake-shop-bottomleft w3-padding-large w3-opacity">
+<header class="container-fluid header-container cake-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="cake-image-bg" src="cake2.jpg" alt="C" widtAAKE h="1600" height="800">
+  <div class="cake-shop-bottomleft">
     <h1 class="">Cake Shop</h1>
   </div>
 </header>
@@ -144,7 +144,7 @@ page-content {
   <hr>
 
   <!-- Contact Section -->
-  <div class="padding-64" id="contact">
+  <div class="container-fluid padding-64" id="contact">
     <h1>Place Order</h1><br>
 
     <form>
@@ -155,7 +155,7 @@ page-content {
         <div class="form-row">
             <div class="form-group col-md-6">
               <label for="inputFirstName">First Name</label>
-              <input type="text" class="form-control" id="inputFirstName" placeholder="FIrst Name">
+              <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
             </div>
             <div class="form-group col-md-6">
               <label for="inputLastName">Last Name</label>
@@ -179,12 +179,12 @@ page-content {
             <input type="text" class="form-control" id="inputMessage" placeholder="Additional Message">
           </div>
         <button type="submit" class="btn btn-primary">Place Order</button>
-      <div>
+        <div>
             <p id="result-text"></p>
         </div>
-      </form>
+    </form>
 
-  </div>
+    </div>
   
 <!-- End page content -->
 </div>
