@@ -3,7 +3,7 @@ form.addEventListener("submit", (event) => {
   // prevent the form submit from refreshing the page
   event.preventDefault();
 
-  const { inputDescription, inputAddress, inputFirstName, inputLastName, inputEmail, inputPhone, inputAddress, inputMessage } = event.target;
+  const { inputDescription, inputAddress, inputFirstName, inputLastName, inputEmail, inputPhone, inputMessage } = event.target;
 
 	// Use your API endpoint URL you copied from the previous step
   const endpoint =
