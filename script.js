@@ -28,8 +28,7 @@ form.addEventListener("submit", (event) => {
       return response.json();
     })
     .then((response) => {
-      document.getElementById("result-text").innerText =
-        "Email sent successfully!";
+      console.log("An unkown error occured.");
     })
     .catch((error) => {
       console.log("An unkown error occured.");
